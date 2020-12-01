@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Select"
+        android:text="Select Image"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/Select"
+        android:layout_marginTop="1dp"
+        android:id="@+id/Image"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Image"
+        android:layout_marginTop="1dp"
+        android:text="Save"
+        android:id="@+id/Save"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
